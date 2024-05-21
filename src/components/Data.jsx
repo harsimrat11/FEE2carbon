@@ -101,7 +101,6 @@ export const items =  [
     amazonLink: 'https://amzn.to/3PuckZp',
     description: '(1TB) - Silver',
     detailedDescription: 'The Apple MacBook Air 13 features a 13.3-inch Retina display, M1 chip, and up to 18 hours of battery life. It includes 1TB of storage and comes in a sleek silver finish.',
-price: '69999',
     price: '69999',
   },
   {
