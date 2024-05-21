@@ -2,7 +2,7 @@ import React, { useState, useEffect } from 'react';
 import { useLocation } from 'react-router-dom';
 import { CardElement, useStripe, useElements } from '@stripe/react-stripe-js';
 import axios from 'axios';
-import './checkout.css'; // Import the CSS file
+import './Checkout.css'; // Import the CSS file
 
 const Checkout = () => {
   const location = useLocation();
