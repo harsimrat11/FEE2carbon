@@ -79,7 +79,7 @@ const Checkout = () => {
           <h3>Order Summary</h3>
           {groupedProducts.map((product, index) => (
             <p key={index}>
-              {product.title} x {product.quantity} - ₹{product.price * product.quantity}
+              {product.title} x {product.quantity} - ₹{product.price ? product.price * product.quantity : 0}
             </p>
           ))}
           <p><strong>Total: ₹{totalPrice}</strong></p>
